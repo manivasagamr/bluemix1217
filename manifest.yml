@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bluemix1217
+  host: bluemix1217
+  disk_quota: 1024M
+  services:
+  - bluemix1217-cloudantNoSQLDB
